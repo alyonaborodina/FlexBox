@@ -1,0 +1,143 @@
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px)
+{
+    section > .m2
+    {
+    flex-direction: column;
+    }
+}
+
+.menu1 > h1
+{
+    color: #8B008B;
+    font-size: 30pt;
+}
+.m2
+{
+    color: #8B008B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > p
+{
+
+    font-size: 25pt;
+    color: #8B008B;
+    margin: 0px;
+}
+
+.content > pre
+{
+
+    white-space: pre-wrap;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13pt;
+    font-weight:bold;
+    margin-left: 30px;
+}
+.image
+{
+    float: right;
+    margin: 8px;
+}
+.image:hover
+{
+    border-radius: 70%;
+    transition: 3s;
+}
+#key 
+{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+}
+
+  to {
+    margin-left: 69%;
+    width: 100%;
+  }
+}
+.main 
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+.menu2
+{
+   font-size: 14pt;
+   display: flex;
+    flex-direction: column;
+   margin-top: 55px;
+}
+.menu2 > a
+{
+    display: block;
+    font-size: 14pt;
+    font-weight:bold;
+    margin-bottom: 60px;
+    color: #8B008B;
+    padding-left: 10px;
+}
+
+li 
+{
+     font-size: 14pt;
+     list-style: none;
+     padding-right: 30px;
+     padding-left: 30px;
+}
+body
+{
+   background: linear-gradient(to top left, purple, #FF00FF, #FF69B4, white);
+}
+
+li, p {
+font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about > a
+{
+    font-size: 20px;
+}
+#el
+{
+    font-size: 20px;
+    background-color:#fff;
+    position: fixed;
+    bottom: 5px;
+
+}
+#el2
+{
+    font-size: 20px;
+    background-color:#fff;
+    position: absolute;
+    top: 5px;
+}
